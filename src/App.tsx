@@ -1,5 +1,9 @@
+import { Header } from "./components/Header"
+
 const App = () => {
-  return <div></div>;
+  return (
+    <Header />
+  );
 };
 
 export { App };
