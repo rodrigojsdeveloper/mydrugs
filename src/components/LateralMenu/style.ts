@@ -19,6 +19,8 @@ const menuClose = keyframes`
 `;
 
 const Container = styled.div`
+  display: none;
+
   .menuOpen,
   .menuClose {
     display: block;
@@ -116,6 +118,10 @@ const Container = styled.div`
         line-height: 32px;
       }
     }
+  }
+
+  @media (max-width: 768px) {
+    display: block;
   }
 `;
 
