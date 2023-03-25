@@ -15,9 +15,11 @@ export default createGlobalStyle`
 		// Colors greys
 		--grey-100: #0E0E0E;
 		--grey-50: #383D3F;
+		--grey-20: #C0C0C0;
 
 		// Colors default
 		--white-fixed: #FFFFFF;
+		--red-fixed: #DC3545;
 		--transparent: transparent;
 
 		// Shadows
