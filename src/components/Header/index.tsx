@@ -1,5 +1,5 @@
-import { MenuHamburguer } from "../MenuHamburger";
-import mydrugs from "../../assets/mydrugs.png";
+import menu from "../../assets/icons8-menu-arredondado-50.png";
+import logo from "../../assets/mydrugs.png";
 import { Container } from "./style";
 
 const Header = () => {
@@ -7,12 +7,12 @@ const Header = () => {
 
   return (
     <Container>
-      {width < 768 ? <MenuHamburguer /> : null}
       <a>SHOP</a>
       <a>FAQ</a>
-      <img src={mydrugs} alt="My Drugs" />
+      <img src={logo} alt="My Drugs" className="logo" />
       <a>SAFETY</a>
       <a>CONTACT</a>
+      {width < 768 ? <img src={menu} alt="Menu" className="menu" /> : null}
     </Container>
   );
 };

@@ -5,14 +5,20 @@ export default createGlobalStyle`
 		margin: 0;
 		padding: 0;
 		outline: 0;
+		border: none;
 		box-sizing: border-box;
 		font-family: 'Arial', sans-serif;
 		scroll-behavior: smooth;
 	}
 
 	:root {
+		// Colors greys
 		--grey-100: #0E0E0E;
+		--grey-50: #383D3F;
+
+		// Colors default
 		--white-fixed: #FFFFFF;
+		--transparent: transparent;
 	}
 
   body {

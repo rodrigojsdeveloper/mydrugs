@@ -10,10 +10,14 @@ const Container = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  padding: 15px;
+  padding: 10px;
   margin: 0 auto;
 
-  & > img {
+  .menu {
+    width: 25px;
+  }
+
+  .logo {
     width: 80px;
     height: 80px;
 
@@ -24,8 +28,16 @@ const Container = styled.header`
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
+  }
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
+    height: 60px;
+
+    .logo {
+      width: 40px;
+    }
+
+    & > a {
       display: none;
     }
   }
