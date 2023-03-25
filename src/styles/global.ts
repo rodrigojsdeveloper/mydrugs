@@ -10,9 +10,15 @@ export default createGlobalStyle`
 		scroll-behavior: smooth;
 	}
 
-	:root {}
+	:root {
+		--grey-100: #0E0E0E;
+		--white-fixed: #FFFFFF;
+	}
 
-  body {}
+  body {
+		background-color: var(--grey-100);
+		color: var(--white-fixed);
+	}
 
   button, a {
 		cursor: pointer;
