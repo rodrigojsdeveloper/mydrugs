@@ -12,7 +12,7 @@ const Header = () => {
       <img src={logo} alt="My Drugs" className="logo" />
       <a>SAFETY</a>
       <a>CONTACT</a>
-      {width < 768 ? <img src={menu} alt="Menu" className="menu" /> : null}
+      {width <= 768 ? <img src={menu} alt="Menu" className="menu" /> : null}
     </Container>
   );
 };

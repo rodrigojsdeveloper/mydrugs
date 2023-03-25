@@ -10,7 +10,7 @@ const Container = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  padding: 10px;
+  padding: 20px;
   margin: 0 auto;
 
   .menu {
