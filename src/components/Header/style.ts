@@ -24,6 +24,10 @@ const Container = styled.header`
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
+
+    &:visited {
+      color: var(--white-fixed);
+    }
   }
 
   @media (max-width: 768px) {

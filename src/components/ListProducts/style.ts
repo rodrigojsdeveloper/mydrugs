@@ -9,18 +9,9 @@ const Container = styled.div`
 
   margin: 0 auto;
 
-  & > h2:nth-child(1) {
+  & > h2 {
     padding: 60px 0 40px 0;
     text-align: center;
-  }
-
-  & > h2:nth-child(2) {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 32px;
-
-    text-align: left;
-    padding: 0 0 10px 10px;
   }
 
   & > menu {

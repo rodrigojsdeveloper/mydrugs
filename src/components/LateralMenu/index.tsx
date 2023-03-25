@@ -1,5 +1,6 @@
 import menu from "../../assets/icons8-menu-arredondado-50.png";
 import x from "../../assets/icons8-excluir-48.png";
+import { Link } from "react-router-dom";
 import { Container } from "./style";
 import { useState } from "react";
 
@@ -30,8 +31,8 @@ const LateralMenu = () => {
         </div>
 
         <div>
-          <a>HOME</a>
-          <a>SHOP</a>
+          <Link to="/">HOME</Link>
+          <Link to="/shop">SHOP</Link>
           <a>FAQ</a>
           <a>SAFETY</a>
           <a>CONTACT</a>

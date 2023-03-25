@@ -10,7 +10,6 @@ const ListProducts = () => {
     <Container>
       <h2>SHOP</h2>
 
-      <h2>Most Popular</h2>
       <menu>
         <Product
           src={drug1}

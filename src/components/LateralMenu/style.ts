@@ -85,6 +85,10 @@ const Container = styled.div`
         line-height: 32px;
 
         padding-bottom: 25px;
+
+        &:visited {
+          color: var(--white-fixed);
+        }
       }
     }
 
@@ -116,6 +120,10 @@ const Container = styled.div`
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
+        
+        &:visited {
+          color: var(--white-fixed);
+        }
       }
     }
   }
