@@ -1,13 +1,5 @@
-import { ListProducts } from "./components/ListProducts";
-import { Header } from "./components/Header";
+import { AllRoutes } from "./routes";
 
-const App = () => {
-  return (
-    <>
-      <Header />
-      <ListProducts />
-    </>
-  );
-};
+const App = () => <AllRoutes />;
 
 export { App };
