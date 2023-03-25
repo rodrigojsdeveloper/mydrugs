@@ -19,6 +19,9 @@ export default createGlobalStyle`
 		// Colors default
 		--white-fixed: #FFFFFF;
 		--transparent: transparent;
+
+		// Shadows
+		--shadow: rgba(0, 0, 0, 0.95)
 	}
 
   body {

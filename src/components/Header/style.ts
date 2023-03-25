@@ -13,10 +13,6 @@ const Container = styled.header`
   padding: 20px;
   margin: 0 auto;
 
-  .menu {
-    width: 25px;
-  }
-
   .logo {
     width: 80px;
     height: 80px;
