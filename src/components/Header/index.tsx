@@ -6,11 +6,15 @@ import { Container } from "./style";
 const Header = () => {
   return (
     <Container>
-      <Link to="/shop">SHOP</Link>
-      <a>FAQ</a>
+      <div className="divLinks">
+        <Link to="/shop">SHOP</Link>
+        <a>FAQ</a>
+      </div>
       <img src={logo} alt="My Drugs" className="logo" />
-      <a>SAFETY</a>
-      <a>CONTACT</a>
+      <div className="divLinks">
+        <a>SAFETY</a>
+        <a>CONTACT</a>
+      </div>
 
       <LateralMenu />
     </Container>

@@ -7,7 +7,7 @@ const Container = styled.header`
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   padding: 20px;
@@ -16,28 +16,43 @@ const Container = styled.header`
   .logo {
     width: 80px;
     height: 80px;
+    width: 100%;
+    max-width: 300px;
 
     object-fit: contain;
   }
 
-  & > a {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
+  & > .divLinks {
+    width: 100%;
+    max-width: 300px;
 
-    &:visited {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & > a {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+
       color: var(--white-fixed);
+
+      &:visited {
+        color: var(--white-fixed);
+      }
     }
   }
 
   @media (max-width: 768px) {
     height: 60px;
+    justify-content: space-between;
 
     .logo {
       width: 40px;
     }
 
-    & > a {
+    & > .divLinks {
       display: none;
     }
   }
